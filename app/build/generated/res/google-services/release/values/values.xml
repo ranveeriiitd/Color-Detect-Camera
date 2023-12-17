@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">854044869589-binha9llu6pr7kr45ddgb38alqstr7eu.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://popcolor-7c604.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">854044869589</string>
+    <string name="google_api_key" translatable="false">AIzaSyASBliT3PPS_b_RqtvkIXvui-uZvdbnjG0</string>
+    <string name="google_app_id" translatable="false">1:854044869589:android:58813e9dab4963a74b335c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyASBliT3PPS_b_RqtvkIXvui-uZvdbnjG0</string>
+    <string name="google_storage_bucket" translatable="false">popcolor-7c604.appspot.com</string>
+    <string name="project_id" translatable="false">popcolor-7c604</string>
+</resources>

@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.popcolor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:3:5-60
+11-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:3:19-57
+12    <uses-feature android:name="android.hardware.camera.autofocus " />
+12-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:4:5-71
+12-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:4:19-68
+13
+14    <uses-permission
+14-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:6:5-86
+15        android:name="android.hardware.camera"
+15-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:6:22-60
+16        android:required="true" />
+16-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:6:61-84
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:7:5-65
+17-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:7:22-62
+18    <uses-permission android:name="android.hardware.camera.autofocus" />
+18-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:8:5-73
+18-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:8:22-70
+19    <uses-permission
+19-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:9:5-93
+20        android:name="android.hardware.camera.front"
+20-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:9:22-66
+21        android:required="false" />
+21-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:9:67-91
+22    <uses-permission
+22-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:10:5-103
+23        android:name="android.hardware.camera.front.autofocus"
+23-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:10:22-76
+24        android:required="false" />
+24-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:10:77-101
+25    <uses-permission android:name="android.hardware.camera.flash" />
+25-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:11:5-69
+25-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:11:22-66
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:12:5-80
+26-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:12:22-77
+27    <uses-permission
+27-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:14:5-17:44
+28        android:name="android.permission.FLASHLIGHT"
+28-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:15:9-53
+29        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+29-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:16:9-77
+30        android:protectionLevel="normal" />
+30-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:17:9-41
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:22:5-79
+31-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:22:22-76
+32    <uses-permission android:name="android.permission.INTERNET" />
+32-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:23:5-67
+32-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:23:22-64
+33    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+33-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:24:5-68
+33-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:24:22-65
+34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+34-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+34-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+35
+36    <application
+36-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:21:5-44:19
+37        android:allowBackup="true"
+37-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:22:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.1.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\bcfc0b80df78591183083cc148e1cf2c\core-1.1.0\AndroidManifest.xml:24:18-86
+39        android:icon="@mipmap/ic_launcher"
+39-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:23:9-43
+40        android:label="Color Detector"
+40-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:25:9-39
+41        android:requestLegacyExternalStorage="true"
+41-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:24:9-52
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:26:9-54
+43        android:supportsRtl="true"
+43-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:27:9-35
+44        android:theme="@style/AppTheme" >
+44-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:28:9-40
+45        <activity
+45-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:31:9-38:20
+46            android:name="com.example.detectcolor.MainScreenActivity"
+46-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:32:13-47
+47            android:theme="@style/AppTheme" >
+47-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:33:13-44
+48            <intent-filter>
+48-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:34:13-37:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:35:17-69
+49-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:35:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:36:17-77
+51-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:36:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:39:9-42:20
+55            android:name="com.example.detectcolor.Main2Activity"
+55-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:40:13-42
+56            android:theme="@style/AppTheme" >
+56-->C:\Users\Ankit Yadav\AndroidStudioProjects\DetectColor\app\src\main\AndroidManifest.xml:41:13-44
+57        </activity>
+58        <activity
+58-->[gun0912.ted:tedpermission:2.2.3] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\61ed25de4c113f39586b21cae73bc8f8\jetified-tedpermission-2.2.3\AndroidManifest.xml:10:9-14:67
+59            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+59-->[gun0912.ted:tedpermission:2.2.3] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\61ed25de4c113f39586b21cae73bc8f8\jetified-tedpermission-2.2.3\AndroidManifest.xml:11:13-75
+60            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+60-->[gun0912.ted:tedpermission:2.2.3] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\61ed25de4c113f39586b21cae73bc8f8\jetified-tedpermission-2.2.3\AndroidManifest.xml:12:13-144
+61            android:screenOrientation="unspecified"
+61-->[gun0912.ted:tedpermission:2.2.3] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\61ed25de4c113f39586b21cae73bc8f8\jetified-tedpermission-2.2.3\AndroidManifest.xml:13:13-52
+62            android:theme="@style/Theme.Transparent.Permission" />
+62-->[gun0912.ted:tedpermission:2.2.3] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\61ed25de4c113f39586b21cae73bc8f8\jetified-tedpermission-2.2.3\AndroidManifest.xml:14:13-64
+63
+64        <service
+64-->[com.google.firebase:firebase-ml-vision:24.0.3] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\0f4565c1c899bffba16c171fd0f3504b\jetified-firebase-ml-vision-24.0.3\AndroidManifest.xml:9:9-15:19
+65            android:name="com.google.firebase.components.ComponentDiscoveryService"
+65-->[com.google.firebase:firebase-ml-vision:24.0.3] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\0f4565c1c899bffba16c171fd0f3504b\jetified-firebase-ml-vision-24.0.3\AndroidManifest.xml:10:13-84
+66            android:directBootAware="true"
+66-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+67            android:exported="false" >
+67-->[com.google.firebase:firebase-ml-vision:24.0.3] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\0f4565c1c899bffba16c171fd0f3504b\jetified-firebase-ml-vision-24.0.3\AndroidManifest.xml:11:13-37
+68            <meta-data
+68-->[com.google.firebase:firebase-ml-vision:24.0.3] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\0f4565c1c899bffba16c171fd0f3504b\jetified-firebase-ml-vision-24.0.3\AndroidManifest.xml:12:13-14:85
+69                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+69-->[com.google.firebase:firebase-ml-vision:24.0.3] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\0f4565c1c899bffba16c171fd0f3504b\jetified-firebase-ml-vision-24.0.3\AndroidManifest.xml:13:17-108
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-ml-vision:24.0.3] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\0f4565c1c899bffba16c171fd0f3504b\jetified-firebase-ml-vision-24.0.3\AndroidManifest.xml:14:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-ml-common:22.1.1] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\d4901993c4d7555e26b4c125ad06b296\jetified-firebase-ml-common-22.1.1\AndroidManifest.xml:11:13-13:85
+72                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+72-->[com.google.firebase:firebase-ml-common:22.1.1] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\d4901993c4d7555e26b4c125ad06b296\jetified-firebase-ml-common-22.1.1\AndroidManifest.xml:12:17-117
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-ml-common:22.1.1] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\d4901993c4d7555e26b4c125ad06b296\jetified-firebase-ml-common-22.1.1\AndroidManifest.xml:13:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+75                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+75-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\80b5e92b70a89d4f419c7604b16b139f\jetified-firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+78                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+78-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\80b5e92b70a89d4f419c7604b16b139f\jetified-firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\80b5e92b70a89d4f419c7604b16b139f\jetified-firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+80        </service>
+81
+82        <receiver
+82-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+83            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+83-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+84            android:exported="true"
+84-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+85            android:permission="com.google.android.c2dm.permission.SEND" >
+85-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+86            <intent-filter>
+86-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+87                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+87-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+87-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\8183980bc8e77d4fe843a9e6d0f0d6a0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+88            </intent-filter>
+89        </receiver>
+90
+91        <activity
+91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+92            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+92-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\2be5ef2959ea5355d833f1cf7554bfda\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+95
+96        <provider
+96-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+97            android:name="com.google.firebase.provider.FirebaseInitProvider"
+97-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+98            android:authorities="com.example.popcolor.firebaseinitprovider"
+98-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+99            android:exported="false"
+99-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+100            android:initOrder="100" />
+100-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+101
+102        <meta-data
+102-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+103            android:name="com.google.android.gms.version"
+103-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ankit Yadav\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+105    </application>
+106
+107</manifest>
